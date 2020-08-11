@@ -7,19 +7,11 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="inbox">
-    <div class="item">
-      <input type="checkbox">
-      <p>Wash clothes</p>
-    </div>
-    <div class="item">
-      <input type="checkbox">
-      <p>Play ball</p>
-    </div>
-    <div class="item">
-      <input type="checkbox">
-      <p>Play ball</p>
-    </div>
+  <div>
+    <input id="inputTodo" type="text" placeholder="請輸入事項">
+    <button onclick="addItem()">新增</button>
+  </div>
+  <div id="todoContainer" class="inbox">
   </div>
 <script src="./script.js"></script>
 </body>

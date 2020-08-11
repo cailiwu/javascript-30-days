@@ -25,6 +25,16 @@ html {
   border-bottom:0;
 }
 
+.text {
+  display: inline-block;
+}
+.over .draggable {
+  background-color: #eaeaea;
+}
+.draggable {
+  width: 100%;
+}
+
 input:checked + p {
   background: #F9F9F9;
   text-decoration: line-through;
